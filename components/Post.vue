@@ -13,6 +13,8 @@
         :src="`/images/blog/${post.cover}`"
         alt="Blog Post Cover Image"
         class="w-full h-48 object-cover"
+        width="192"
+        height="128"
       />
     </NuxtLink>
     <div class="p-6">
