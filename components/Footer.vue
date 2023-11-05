@@ -10,6 +10,7 @@
           :href="item.href"
           target="_blank"
           class="text-gray-500 hover:text-rose-600 transition-colors duration-300"
+          :aria-label="`Link para ${item.name}`"
           ><Icon :name="item.icon" class="w-6 h-6" size="1.5rem" />
         </a>
       </div>

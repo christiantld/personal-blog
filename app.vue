@@ -16,4 +16,9 @@
       "Minha página pessoal onde eu posto sobre tecnologia e desenvolvimento web. Você pode acompanhar meus projetos e entrar em contato comigo por aqui.",
     ogImage: "graphism.webp"
   });
+  useHead({
+    htmlAttrs: {
+      lang: "pt-BR"
+    }
+  });
 </script>
