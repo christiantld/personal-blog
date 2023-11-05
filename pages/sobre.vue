@@ -47,10 +47,16 @@
         com certeza teria seguido o caminho da música.
       </p>
     </div>
-    <img src="/images/profile.png" class="rounded-full w-64 h-64" />
+    <img
+      src="/images/profile.png"
+      class="rounded-full w-64 h-64 mx-auto"
+      alt="Foto do Christian"
+      width="256"
+      height="256"
+    />
   </section>
 </template>
-<script setup lang="ts">
+<script setup>
   useHead({
     title: "Sobre mim - Christian Toledo"
   });
