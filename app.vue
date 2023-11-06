@@ -7,14 +7,14 @@
     <Footer />
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
   useSeoMeta({
     ogTitle: "Christian Toledo",
     description:
       "Minha página pessoal onde eu posto sobre tecnologia e desenvolvimento web. Você pode acompanhar meus projetos e entrar em contato comigo por aqui.",
     ogDescription:
       "Minha página pessoal onde eu posto sobre tecnologia e desenvolvimento web. Você pode acompanhar meus projetos e entrar em contato comigo por aqui.",
-    ogImage: "graphism.webp"
+    ogImage: " graphism.webp"
   });
   useHead({
     htmlAttrs: {
