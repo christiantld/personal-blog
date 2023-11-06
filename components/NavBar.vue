@@ -30,6 +30,7 @@
           <div class="hidden sm:block">
             <div class="flex space-x-4">
               <NuxtLink
+                as="a"
                 v-for="item in navigation"
                 :key="item.name"
                 :href="item.href"
