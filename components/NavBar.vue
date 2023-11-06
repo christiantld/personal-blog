@@ -29,20 +29,19 @@
           </h2>
           <div class="hidden sm:block">
             <div class="flex space-x-4">
-              <NuxtLink
-                as="a"
-                v-for="item in navigation"
-                :key="item.name"
-                :href="item.href"
-                :class="[
-                  item.current
-                    ? ' text-rose-600'
-                    : 'text-gray-500  hover:text-cyan-600',
-                  'rounded-md px-3 py-2 text-sm font-medium transition-colors duration-300'
-                ]"
-                :aria-current="item.current ? 'page' : undefined"
-                >{{ item.name }}</NuxtLink
-              >
+              <span v-for="item in navigation" :key="item.name + item.href">
+                <a
+                  :href="item.href"
+                  :class="[
+                    item.current
+                      ? ' text-rose-600'
+                      : 'text-gray-500  hover:text-cyan-600',
+                    'rounded-md px-3 py-2 text-sm font-medium transition-colors duration-300'
+                  ]"
+                  :aria-current="item.current ? 'page' : undefined"
+                  >{{ item.name }}</a
+                >
+              </span>
             </div>
           </div>
         </div>
