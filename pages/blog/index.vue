@@ -1,6 +1,6 @@
 <script setup>
   const { data: posts } = await useAsyncData("posts", () =>
-    queryContent("/blog").find()
+    queryContent("/blog").sort({date: -1}).find()
   );
 
   useHead({
