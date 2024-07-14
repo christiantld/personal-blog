@@ -1,5 +1,5 @@
 ---
-title: Testando componentes assíncronos no Next.JS
+title: Testando componentes React assíncronos
 description: Entenda como escrever testes para componentes assíncronos no frontend, especialmente com server components no Next.js 13.
 cover: testsjs.webp
 date: 2024-07-14
@@ -10,7 +10,7 @@ tags:
   - typescript
 ---
 
-# Testando componentes assíncronos no Next.JS
+# Testando componentes React assíncronos
 
 Quando decidimos escrever testes para nossos componentes no frontend, é uma boa prática, e até uma forma de facilitar nossa escrita de testes, separar o que é lógica do que é apresentação. Dessa forma, podemos ter testes separados para cada uma das responsabilidades.
 
@@ -120,3 +120,8 @@ Com essas práticas, podemos melhorar a confiabilidade e a mantenibilidade dos t
 ---
 ### Referências
 - https://www.marcusoft.net/2022/11/nextjs-testing-async-react-components.html
+
+---
+
+publicado também em: [dev.to](https://dev.to/christiantld/testando-componentes-react-assincronos-h23)
+```
